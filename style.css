@@ -35,6 +35,10 @@
 	background-color: #DED3BF;
 }
 
+body {
+	background-color: #2b4141;
+}
+
 /*************HEADER*************/
 
 header {
@@ -212,9 +216,24 @@ footer div.footer_container {
 div.footer_container div.about {
 	width:595px;
 	min-height: inherit;
+	text-align: right;
+}
+div.about h4 {
+	font-family: Titr;
+	font-size: 21px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+	color: #F0D200;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #333;
+}
+
+div.about p {
+	font-size: 18px;
+	color: #f1f1f1;
 }
 
 div.footer_container div.social {
-	margin-left: 600px;
+	margin-right: 600px;
 	min-height: inherit;
 }
