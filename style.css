@@ -84,12 +84,10 @@ section.content_container {
 
 section.content_container div.content {
 	min-height: 480px;
-	outline: 1px solid blue;
-	padding-top: 1px;
+	padding-top: 20px;
 }
 
 div.content > div {
-	outline: 1px solid red;
 	width: 182px;
 	min-height: 407px;
 	margin-right: 10px;
@@ -173,7 +171,7 @@ div.content p.info {
 	min-height: 120px;
 }
 div.content p.version {
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 	text-align: center;
 }
 div.content a.website,
@@ -181,7 +179,6 @@ div.content a.download {
 	display: block;
 	text-decoration: none;
 	background-color: rgba(255,255,255,.3);
-	line-height: 1;
 	margin-bottom: 10px;
 	padding: 8px 5px;
 	text-align: center;
