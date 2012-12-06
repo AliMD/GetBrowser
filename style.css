@@ -38,7 +38,6 @@
 /*************HEADER*************/
 
 header {
-	min-height: 325px;
 	padding-top: 1px;
 	background-image: url('images/bg-header.png');
 	background-repeat: repeat-x;
@@ -47,7 +46,7 @@ header {
 
 header div.header_container {
 	min-height: 180px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 div.header_container hgroup {
@@ -79,17 +78,15 @@ div.header_container hgroup h4 {
 /*************CONTENT*************/
 
 section.content_container {
-	height: 525px;
+	min-height: 535px;
 }
 
 section.content_container div.content {
-	min-height: 480px;
 	padding-top: 20px;
 }
 
 div.content > div {
 	width: 182px;
-	min-height: 407px;
 	margin-right: 10px;
 }
 
