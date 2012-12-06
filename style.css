@@ -124,8 +124,7 @@ div.content div.iE div.icon {
 	background-position: -500px 0;
 }
 
-div.content a {
-	text-decoration: none;
+div.content div.hover_mode {
 	color: #324B4B;
 	padding: 30px 10px 10px;
 	display: block;
@@ -133,20 +132,20 @@ div.content a {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-transition: all .8s;
-	-moz-transition: all .8s;
-	-o-transition: all .8s;
-	transition: all .8s;
+	-webkit-transition: -webkit-transform 800ms;
+	-moz-transition: -moz-transform 800ms;
+	-o-transition: all 800ms;
+	transition: all 800ms;
 }
-div.content a:hover {
+div.content div.hover_mode:hover {
 	background: rgba(255,255,255,.3);
 	-webkit-transform: scale(1.05,1.05);
 	-moz-transform: scale(1.05,1.05);
 	-o-transform: scale(1.05,1.05);
 	transform: scale(1.05,1.05);
 }
-div.content a:hover p.website,
-div.content a:hover p.download {
+div.content a.website:hover,
+div.content a.download:hover {
 	background: #4daaa7;
 	color: #fff;
 	text-shadow: 0 1px 0 #266E67;
@@ -167,7 +166,7 @@ div.content h2 {
 div.content p {
 	padding: 0 5px;
 	text-shadow: 0 1px 0 rgba(255,255,255,.8);
-	text-align: right;
+	text-align: justify;
 	font-size: 17px;
 }
 div.content p.info {
@@ -177,8 +176,10 @@ div.content p.version {
 	margin-bottom: 10px;
 	text-align: center;
 }
-div.content p.website,
-div.content p.download {
+div.content a.website,
+div.content a.download {
+	display: block;
+	text-decoration: none;
 	background-color: rgba(255,255,255,.3);
 	line-height: 1;
 	margin-bottom: 10px;
@@ -187,10 +188,10 @@ div.content p.download {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-o-transition: all .5s;
-	transition: all .5s;
+	-webkit-transition: background-color 500ms;
+	-moz-transition: background-color 500ms;
+	-o-transition: background-color 500ms;
+	transition: background-color 500ms;
 }
 
 
