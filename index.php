@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
-<html lang="fa-IR">
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8" />
 	<title>مرورگر خودتون رو بروز کنید</title>
 	<link rel="stylesheet" type="text/css" href="1styles.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
