@@ -9,6 +9,8 @@ div {
 	outline: 1px solid blue;
 }
 
+/*************HEADER*************/
+
 header {
 	height: 325px;
 	padding-top: 1px;
@@ -20,6 +22,8 @@ header div.header_container {
 	margin-top: 70px;
 }
 
+/*************CONTENT*************/
+
 section.content_container {
 	height: 525px;
 	outline: 1px solid red;
@@ -27,7 +31,22 @@ section.content_container {
 
 section.content_container div.content {
 	min-height: 480px;
+	padding-top: 1px;
 }
+
+div.content > div {
+	width: 182px;
+	min-height: 407px;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
+div.content > div.last {
+	margin-left: 770px;
+	width: auto;
+}
+
+/*************FOOTER*************/
 
 footer {
 	height: 250px;
@@ -36,6 +55,16 @@ footer {
 }
 
 footer div.footer_container {
-	min-height: 180px;
+	min-height: 100px;
 	margin-top: 60px;
+}
+
+div.footer_container div.about {
+	width:595px;
+	min-height: inherit;
+}
+
+div.footer_container div.social {
+	margin-left: 600px;
+	min-height: inherit;
 }
