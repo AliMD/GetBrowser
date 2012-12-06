@@ -1,8 +1,6 @@
-body {
-	background-image: url('images/background.png');
-	background-repeat: no-repeat;
-	height: 1104px;
-	width: 1349px;
+#wrap {
+	background-image: url('images/bg.jpg');
+	background-color: #DED3BF;
 }
 
 div {
@@ -12,9 +10,11 @@ div {
 /*************HEADER*************/
 
 header {
-	height: 325px;
+	min-height: 325px;
 	padding-top: 1px;
-	outline: 1px solid red;
+	background-image: url('images/bg-header.png');
+	background-repeat: repeat-x;
+	background-position: left bottom;
 }
 
 header div.header_container {
@@ -51,7 +51,9 @@ div.content > div.last {
 footer {
 	height: 250px;
 	padding-top: 1px;
-	outline: 1px solid red;
+	background-image: url('images/bg-footer.png');
+	background-repeat: repeat-x;
+	background-position: left top;
 }
 
 footer div.footer_container {
