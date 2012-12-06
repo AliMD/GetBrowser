@@ -127,16 +127,18 @@ div.content div.hover_mode {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-transition: -webkit-transform 800ms;
-	-moz-transition: -moz-transform 800ms;
-	-o-transition: all 800ms;
-	transition: all 800ms;
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	transition: all 200ms;
 }
 div.content div.hover_mode:hover {
 	background: rgba(255,255,255,.3);
 	-webkit-transform: scale(1.05,1.05);
 	-moz-transform: scale(1.05,1.05);
 	-o-transform: scale(1.05,1.05);
+	-ms-transform: scale(1.05,1.05);
 	transform: scale(1.05,1.05);
 }
 div.content a.website:hover,
@@ -182,10 +184,11 @@ div.content a.download {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-transition: background-color 500ms;
-	-moz-transition: background-color 500ms;
-	-o-transition: background-color 500ms;
-	transition: background-color 500ms;
+	-webkit-transition: background-color 200ms ease-in;
+	-moz-transition: background-color 200ms ease-in;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	transition: all 200ms;
 }
 
 
