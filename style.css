@@ -166,7 +166,7 @@ div.content h2 {
 div.content p {
 	padding: 0 5px;
 	text-shadow: 0 1px 0 rgba(255,255,255,.8);
-	text-align: justify;
+	text-align: right;
 	font-size: 17px;
 }
 div.content p.info {
