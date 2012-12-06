@@ -83,14 +83,40 @@ section.content_container {
 
 section.content_container div.content {
 	min-height: 480px;
+	outline: 1px solid blue;
 	padding-top: 1px;
 }
 
 div.content > div {
+	outline: 1px solid red;
 	width: 182px;
 	min-height: 407px;
 	margin-top: 40px;
 	margin-right: 10px;
+}
+
+div.content div.icon {
+	background-image: url('images/browsers.png');
+	background-repeat: no-repeat;
+	width: 125px;
+	height: 135px;
+	margin: 0 auto 20px;
+}
+
+div.content div.chrome div.icon {
+	background-position: 0 0;
+}
+div.content div.firefox div.icon {
+	background-position: -125px 0;
+}
+div.content div.safari div.icon {
+	background-position: -375px 0;
+}
+div.content div.opera div.icon {
+	background-position: -250px 0;
+}
+div.content div.iE div.icon {
+	background-position: -500px 0;
 }
 
 div.content > div.last {
