@@ -1,10 +1,37 @@
+/*************Fonts*************/
+
+@font-face {
+	font-family: 'Nazanin';
+	src: url('fonts/BNazanin.eot');
+	src: url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/BNazanin.woff') format('woff'),
+		 url('fonts/BNazanin.ttf') format('truetype');
+	font-weight	: normal;
+	font-style	: normal;
+	-webkit-font-smoothing	: antialiased;
+}
+
+@font-face {
+	font-family: 'Titr';
+	src: url('fonts/BTitrBold.eot');
+	src: url('fonts/BTitrBold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/BTitrBold.woff') format('woff'),
+		 url('fonts/BTitrBold.ttf') format('truetype');
+	font-weight	: normal;
+	font-style	: normal;
+	-webkit-font-smoothing	: antialiased;
+}
+
+:lang(fa-IR) {
+	font-family	: 'Nazanin';
+	direction	: rtl;
+}
+
+/**************************/
+
 #wrap {
 	background-image: url('images/bg.jpg');
 	background-color: #DED3BF;
-}
-
-div {
-	outline: 1px solid blue;
 }
 
 /*************HEADER*************/
@@ -22,11 +49,36 @@ header div.header_container {
 	margin-top: 70px;
 }
 
+div.header_container hgroup {
+	text-align: center;
+	line-height: 1.8;
+}
+
+div.header_container hgroup h1 {
+	font-family: titr;
+	font-size: 59px;
+	color: #324B4B;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5), 0 -1px 0 rgba(0,0,0,.8);
+}
+
+div.header_container hgroup span {
+	font-family: titr;
+	color: #F0D200;
+	text-shadow: 0 1px 0 rgba(0, 50, 40, 0.5), 0 -1px 0 rgba(255, 255, 0, 0.8);
+}
+
+div.header_container hgroup h4 {
+	font-size: 27px;
+	color: #fff;
+	text-shadow: 0 1px 0 #4C7C7B;
+}
+
+
+
 /*************CONTENT*************/
 
 section.content_container {
 	height: 525px;
-	outline: 1px solid red;
 }
 
 section.content_container div.content {
