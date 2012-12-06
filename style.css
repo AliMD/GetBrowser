@@ -25,6 +25,7 @@
 :lang(fa-IR) {
 	font-family	: 'Nazanin';
 	direction	: rtl;
+	line-height: 1.2;
 }
 
 /**************************/
@@ -91,8 +92,12 @@ div.content > div {
 	outline: 1px solid red;
 	width: 182px;
 	min-height: 407px;
-	margin-top: 40px;
 	margin-right: 10px;
+}
+
+div.content > div.last {
+	margin-left: 770px;
+	width: auto;
 }
 
 div.content div.icon {
@@ -119,10 +124,77 @@ div.content div.iE div.icon {
 	background-position: -500px 0;
 }
 
-div.content > div.last {
-	margin-left: 770px;
-	width: auto;
+div.content a {
+	text-decoration: none;
+	color: #324B4B;
+	padding: 30px 10px 10px;
+	display: block;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .8s;
+	-moz-transition: all .8s;
+	-o-transition: all .8s;
+	transition: all .8s;
 }
+div.content a:hover {
+	background: rgba(255,255,255,.3);
+	-webkit-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	transform: scale(1.05,1.05);
+}
+div.content a:hover p.website,
+div.content a:hover p.download {
+	background: #4daaa7;
+	color: #fff;
+	text-shadow: 0 1px 0 #266E67;
+}
+div.content h2 {
+	font-family: Titr;
+	font-size: 22px;
+	text-align: center;
+	color: #DC3228;
+	text-shadow: 0 1px 0 #fff;
+	background-color: rgba(255,255,255,.3);
+	margin: 0 0 10px;
+	padding: 8px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+div.content p {
+	padding: 0 5px;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	text-align: right;
+	font-size: 17px;
+}
+div.content p.info {
+	min-height: 120px;
+}
+div.content p.version {
+	margin-bottom: 10px;
+	text-align: center;
+}
+div.content p.website,
+div.content p.download {
+	background-color: rgba(255,255,255,.3);
+	line-height: 1;
+	margin-bottom: 10px;
+	padding: 8px 5px;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+
+
 
 /*************FOOTER*************/
 
