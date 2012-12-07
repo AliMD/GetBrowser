@@ -22,12 +22,6 @@
 	-webkit-font-smoothing	: antialiased;
 }
 
-:lang(fa-IR) {
-	font-family	: 'Nazanin';
-	direction	: rtl;
-	line-height: 1.2;
-}
-
 /**************************/
 
 #wrap {
@@ -37,6 +31,7 @@
 
 body {
 	background-color: #2b4141;
+	font-family	: 'Nazanin';
 }
 
 ::-moz-selection { 
