@@ -21,32 +21,12 @@
 		<section class="content_container">
 			<div class="content w24 mla mra cover">
 				
-				<div class="chrome left">
+				<div class="iE left">
 					<a href="#">
 						<div class="icon"></div>
-						<h2>گوگل کروم</h2>
-						<p class="info">سریع ترین مرورگر موجود، پر قدرت، امن و محیط کاربری ساده. همین حالا امتحانش کنید.</p>
-						<p class="version">آخرین ورژن : 23</p>
-						<p class="website">اطلاعات بیشتر</p>
-					</a>
-				</div>
-
-				<div class="firefox left">
-					<a href="#">
-						<div class="icon"></div>
-						<h2>موزیلا فایرفاکس</h2>
-						<p class="info">مرورگری سریع و پرقدرت. فایرفاکس بر اساس امنیت بیشتر ساخته شده، با این مرورگر امنیت رو تجربه کنید.</p>
-						<p class="version">آخرین ورژن : 17</p>
-						<p class="website">اطلاعات بیشتر</p>
-					</a>
-				</div>
-
-				<div class="safari left">
-					<a href="#">
-						<div class="icon"></div>
-						<h2>سافاری</h2>
-						<p class="info">مرورگر سافاری محصول کمپانی اپل می باشد، که اکثر کاربرهای این مرورگر از سیستم عامل مک استفاده میکنند</p>
-						<p class="version">آخرین ورژن : 6</p>
+						<h2>اینترنت اکسپلورر</h2>
+						<p class="info">مرورگری از کمپانی مایکروسافت.</p>
+						<p class="version">آخرین ورژن : 10</p>
 						<p class="website">اطلاعات بیشتر</p>
 					</a>
 				</div>
@@ -61,16 +41,36 @@
 					</a>
 				</div>
 
-				<div class="iE last">
+				<div class="safari left">
 					<a href="#">
 						<div class="icon"></div>
-						<h2>اینترنت اکسپلورر</h2>
-						<p class="info">مرورگری از کمپانی مایکروسافت.</p>
-						<p class="version">آخرین ورژن : 10</p>
+						<h2>سافاری</h2>
+						<p class="info">مرورگر سافاری محصول کمپانی اپل می باشد، که اکثر کاربرهای این مرورگر از سیستم عامل مک استفاده میکنند</p>
+						<p class="version">آخرین ورژن : 6</p>
 						<p class="website">اطلاعات بیشتر</p>
 					</a>
 				</div>
 
+				<div class="firefox left">
+					<a href="#">
+						<div class="icon"></div>
+						<h2>موزیلا فایرفاکس</h2>
+						<p class="info">مرورگری سریع و پرقدرت. فایرفاکس بر اساس امنیت بیشتر ساخته شده، با این مرورگر امنیت رو تجربه کنید.</p>
+						<p class="version">آخرین ورژن : 17</p>
+						<p class="website">اطلاعات بیشتر</p>
+					</a>
+				</div>
+
+				<div class="chrome last">
+					<a href="#">
+						<div class="icon"></div>
+						<h2>گوگل کروم</h2>
+						<p class="info">سریع ترین مرورگر موجود، پر قدرت، امن و محیط کاربری ساده. همین حالا امتحانش کنید.</p>
+						<p class="version">آخرین ورژن : 23</p>
+						<p class="website">اطلاعات بیشتر</p>
+					</a>
+				</div>
+				
 			</div>
 		</section>
 		<footer>
