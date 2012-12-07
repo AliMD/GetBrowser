@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>مرورگر خودتون رو بروز کنید</title>
+	<meta name="description" content=" مرورگر خودتون رو بروز کنید">
 	<link rel="stylesheet" type="text/css" href="1styles.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="scripts/html5shiv.js"></script>
@@ -13,7 +14,7 @@
 			<div class="header_container w24 mla mra">
 				<hgroup>
 					<h1>با خیال راحت <span>جستجو کنید</span></h1>
-					<h4>همین الان مرورگر خودتون رو بروز کنید</h4>
+					<h4>همین الان مرورگر خودتون رو بروز کنید!</h4>
 				</hgroup>
 			</div>
 		</header>
@@ -52,7 +53,7 @@
 						<div class="icon"></div>
 						<h2>موزیلا فایرفاکس</h2>
 						<p class="info">مرورگری سریع و پرقدرت. فایرفاکس بر اساس امنیت بیشتر ساخته شده، با این مرورگر امنیت رو تجربه کنید.</p>
-						<p class="version">ورژن : 17</p>
+						<p class="version">آخرین ورژن : 17</p>
 						<a href="http://www.firefox.com/" class="website">اطلاعات بیشتر</a>
 						<a href="<?php get_browsers('firefox') ?>" class="download">دانلود مرورگر</a>
 					</div>
@@ -63,7 +64,7 @@
 						<div class="icon"></div>
 						<h2>سافاری</h2>
 						<p class="info">مرورگر سافاری محصول کمپانی اپل می باشد، که اکثر کاربرهای این مرورگر از سیستم عامل مک استفاده میکنند</p>
-						<p class="version">ورژن : 6</p>
+						<p class="version">آخرین ورژن : 6</p>
 						<a href="http://www.apple.com/safari/" class="website">اطلاعات بیشتر</a>
 						<a href="<?php get_browsers('safari') ?>" class="download">دانلود مرورگر</a>
 					</div>
@@ -74,7 +75,7 @@
 						<div class="icon"></div>
 						<h2>اپرا</h2>
 						<p class="info">مرورگری پرسرعت، به راحتی قابل استفاده و دارای امنیت بالا</p>
-						<p class="version">ورژن : 12</p>
+						<p class="version">آخرین ورژن : 12</p>
 						<a href="http://www.opera.com/" class="website">اطلاعات بیشتر</a>
 						<a href="<?php get_browsers('opera') ?>" class="download">دانلود مرورگر</a>
 					</div>
@@ -85,7 +86,7 @@
 						<div class="icon"></div>
 						<h2>اینترنت اکسپلورر</h2>
 						<p class="info">مرورگری از کمپانی مایکروسافت.</p>
-						<p class="version">ورژن : 10</p>
+						<p class="version">آخرین ورژن : 10</p>
 						<a href="http://windows.microsoft.com/ie" class="website">اطلاعات بیشتر</a>
 						<a href="<?php get_browsers('ie') ?>" class="download">دانلود مرورگر</a>
 					</div>
