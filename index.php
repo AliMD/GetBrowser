@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="fa-IR" dir="rtl">
+<!--[if lt IE 7]>		<html lang="fa-IR" dir="rtl" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>			<html lang="fa-IR" dir="rtl" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>			<html lang="fa-IR" dir="rtl" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->	<html lang="fa-IR" dir="rtl" class="no-ie"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 	<title>مرورگر خودتون رو بروز کنید</title>
@@ -70,7 +73,7 @@
 						<p class="website">اطلاعات بیشتر</p>
 					</a>
 				</div>
-				
+
 			</div>
 		</section>
 		<footer>

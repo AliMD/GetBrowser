@@ -128,6 +128,7 @@ div.content div.iE div.icon {
 div.content a {
 	text-decoration	: none;
 	display			: block;
+	cursor			: pointer;
 	color			: #324B4B;
 	padding			: 30px 10px 10px;
 	overflow		: hidden;
@@ -140,13 +141,19 @@ div.content a {
 	transition				: all 200ms;
 }
 div.content a:hover {
-	background-color			: rgba(255,255,255,.3);
 	-webkit-transform	: scale(1.05,1.05);
 	-moz-transform		: scale(1.05,1.05);
 	-o-transform		: scale(1.05,1.05);
 	-ms-transform		: scale(1.05,1.05);
 	transform			: scale(1.05,1.05);
+	background-color	: rgba(255,255,255,.3);
 }
+.lt-ie9 div.content a:hover {
+	background	: transparent;
+	filter		: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF,endColorstr=#4CFFFFFF);
+	zoom		: 1;
+}
+
 div.content a:visited {
 	color	: #324B4B;
 }
@@ -163,6 +170,11 @@ div.content h2 {
 	-webkit-border-radius	: 3px;
 	-moz-border-radius		: 3px;
 	border-radius			: 3px;
+}
+.lt-ie9 div.content h2{
+	background	: transparent;
+	filter		: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF,endColorstr=#4CFFFFFF);   /* IE6 & 7 */
+	zoom		: 1;
 }
 
 div.content p {
@@ -190,6 +202,11 @@ div.content p.website {
 	-moz-border-radius		: 3px;
 	border-radius			: 3px;
 	background-color: rgba(255,255,255,.3);
+}
+.lt-ie9 div.content p.website {
+	background	: transparent;
+	filter		: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF,endColorstr=#4CFFFFFF);
+	zoom		: 1;
 }
 
 div.content a:hover p.website {
