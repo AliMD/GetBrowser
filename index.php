@@ -12,6 +12,9 @@
 	<script type="text/javascript" src="scripts/html5shiv.js"></script>
 </head>
 <body>
+	<a href="https://github.com/AliMD/GetBrowser" target="_blank">
+		<div class="fork_me"></div>
+	</a>
 	<section id="wrap">
 		<header>
 			<div class="header_container w24 mla mra">

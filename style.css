@@ -43,6 +43,16 @@ body {
 	background	: #F0D200; 
 } 
 
+div.fork_me {
+	background-image: url('images/forkme.png');
+	background-repeat: no-repeat;
+	width: 134px;
+	height: 134px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 /*************HEADER*************/
 
 header {
