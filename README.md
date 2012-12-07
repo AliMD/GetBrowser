@@ -16,8 +16,13 @@ This is the source for the main Get Browser website, found at [getbrowser.ir](ht
 ## Change Log
 
 #### HEAD (now)
+  * Change to HTML
+  * [View full changes](https://github.com/AliMD/GetBrowser/compare/v0.3.5...master)
+
+#### v0.3.5 (12/06/2012)
   * Change to PHP
-  * [View full changes](https://github.com/AliMD/GetBrowser/compare/v0.3...master)
+  * Links with PHP
+  * [View full changes](https://github.com/AliMD/GetBrowser/compare/v0.3...v0.3.5)
 
 #### v0.3 (12/06/2012)
   * Stable Page
