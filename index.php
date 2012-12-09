@@ -28,7 +28,7 @@
 			<div class="content w24 mla mra cover">
 				
 				<div class="iE left">
-					<a href="#">
+					<a href="http://windows.microsoft.com/ie">
 						<div class="icon"></div>
 						<h2>اینترنت اکسپلورر</h2>
 						<p class="info">مرورگری از کمپانی مایکروسافت.</p>
@@ -38,7 +38,7 @@
 				</div>
 
 				<div class="opera left">
-					<a href="#">
+					<a href="http://www.opera.com/">
 						<div class="icon"></div>
 						<h2>اپرا</h2>
 						<p class="info">مرورگری پرسرعت، به راحتی قابل استفاده و دارای امنیت بالا</p>
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="safari left">
-					<a href="#">
+					<a href="http://www.apple.com/safari/">
 						<div class="icon"></div>
 						<h2>سافاری</h2>
 						<p class="info">مرورگر سافاری محصول کمپانی اپل می باشد، که اکثر کاربرهای این مرورگر از سیستم عامل مک استفاده میکنند</p>
@@ -58,7 +58,7 @@
 				</div>
 
 				<div class="firefox left">
-					<a href="#">
+					<a href="http://www.firefox.com/">
 						<div class="icon"></div>
 						<h2>موزیلا فایرفاکس</h2>
 						<p class="info">مرورگری سریع و پرقدرت. فایرفاکس بر اساس امنیت بیشتر ساخته شده، با این مرورگر امنیت رو تجربه کنید.</p>
@@ -68,7 +68,7 @@
 				</div>
 
 				<div class="chrome last">
-					<a href="#">
+					<a href="http://www.google.com/chrome">
 						<div class="icon"></div>
 						<h2>گوگل کروم</h2>
 						<p class="info">سریع ترین مرورگر موجود، پر قدرت، امن و محیط کاربری ساده. همین حالا امتحانش کنید.</p>
