@@ -5,10 +5,12 @@
 <!--[if gt IE 8]><!-->	<html lang="fa-IR" dir="rtl" class="no-ie"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>مرورگر خودتون رو بروز کنید</title>
-	<meta name="description" content=" مرورگر خودتون رو بروز کنید">
-	<link rel="stylesheet" type="text/css" href="1styles.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>دانلود مرورگر</title>
+	<meta name="keywords" content="مرورگر,گوگل کروم,کروم,فایرفاکس,موزیلا,اپرا,سافاری,اینترنت اکسپلورر,دانلود مرورگر,دانلود گوگل کروم,دانلود کروم,دانلود فایرفاکس,دانلود موزیلا,دانلود اپرا,دانلود سافاری,دانلود اینترنت اکسپلورر,browser,update,update browser,chrome,google chrome,firefox,mozila,opera,internet explorer,ie" />
+	<meta name="description" content=" مرورگر خودتون رو بروز کنید" />
+	<meta name="author" content="1Devs Web Department" />
+	<link rel="stylesheet" type="text/css" href="1styles.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="scripts/html5shiv.js"></script>
 </head>
 <body>
